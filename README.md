@@ -1,6 +1,6 @@
-# Superstore-Sales-Dashboard----Power-BI-Project-
+# Superstore-Sales-Dashboard -- PowerBI Project 
 
-# DASHBOARD PREVIEW:-
+# Dashboard Preview:-
 ![Superstore Sales Dashboard Image ](https://github.com/user-attachments/assets/bb3d129f-bbd6-45bf-8ac6-df33bfaa2df6)
 
 ## Objective
