@@ -1,5 +1,7 @@
 # Superstore-Sales-Dashboard -- PowerBI Project 
 
+# Interactive Dashboard Link : https://app.powerbi.com/groups/me/reports/32f81a4b-41e4-4a5c-a623-db705521c213/80e0519c0e7ddc92acc3?experience=power-bi
+
 # Dashboard Preview:-
 ![Superstore Sales Dashboard Image ](https://github.com/user-attachments/assets/bb3d129f-bbd6-45bf-8ac6-df33bfaa2df6)
 
