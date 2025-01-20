@@ -13,89 +13,88 @@ This project involved importing raw sales data, transforming and cleaning it, cr
 
 ### Step-by-Step Process
 - Data Cleaning and Transformation
--- Tool Used: Power Query Editor
--- Removed duplicate entries and handled missing or null values.
+  
+  -- Tool Used: Power Query Editor
+  
+  -- Removed duplicate entries and handled missing or null values.
 
--- Standardized column names for consistency.
--- Changed data types (e.g., dates, numbers, categories) to align with their intended use.
+  -- Standardized column names for consistency.
+  
+  -- Changed data types (e.g., dates, numbers, categories) to align with their intended use.
 
--- Added calculated columns (e.g., Sales = Quantity × Unit Price) for essential metrics.
+  -- Added calculated columns (e.g., Sales = Quantity × Unit Price) for essential metrics.
 - Data Modeling
--- Established relationships between tables, such as linking sales data with customer and product details.
 
--- Created a star schema to optimize data modeling and improve query performance.
+  -- Established relationships between tables, such as linking sales data with customer and product details.
 
--- Marked the date table as a "Date Table" for time-based analysis.
+  -- Created a star schema to optimize data modeling and improve query performance.
+
+  -- Marked the date table as a "Date Table" for time-based analysis.
 - Dashboard Design and Visualizations
--- Designed an intuitive dashboard layout with the following charts:
+  
+  -- Designed an intuitive dashboard layout with the following charts:
 
 #### Charts Used:
 - Bar Chart:
   
--- Used to compare sales by region or product categories.
+  -- Used to compare sales by region or product categories.
 
--- Displayed "Total Sales by Region" to highlight geographic performance differences.
-
+  -- Displayed "Total Sales by Region" to highlight geographic performance differences.
 - Line Chart:
   
--- Used to show sales trends over time.
+  -- Used to show sales trends over time.
 
--- Plotted "Monthly Sales Trend" to identify patterns and seasonality.
-
+  -- Plotted "Monthly Sales Trend" to identify patterns and seasonality.
 - Pie Chart/Donut Chart:
   
--- Used to display the proportion of sales by category or segment.
+  -- Used to display the proportion of sales by category or segment.
 
--- Showed "Sales Contribution by Product Category."
-
+  -- Showed "Sales Contribution by Product Category."
 - Stacked Bar Chart:
   
--- Used for comparing regional sales with product breakdowns.
+  -- Used for comparing regional sales with product breakdowns.
 
--- Represented "Regional Sales Contribution by Product Line."
-
+  -- Represented "Regional Sales Contribution by Product Line."
 - KPI Cards:
   
--- Used to highlight key metrics such as total sales, total profit, and average sales per order.
-
+  -- Used to highlight key metrics such as total sales, total profit, and average sales per order.
 - Slicers:
   
--- Enabled users to filter data by region, product category, and date range.
+  -- Enabled users to filter data by region, product category, and date range.
 - DAX Measures and Calculations
 #### DAX Functions Used:
--- SUM: For calculating total sales (Total Sales = SUM(Sales[Amount])).
 
--- CALCULATE: To create measures for specific conditions (e.g., sales in a specific region).
+  -- SUM: For calculating total sales (Total Sales = SUM(Sales[Amount])).
 
--- DATEADD: Used for time intelligence (e.g., comparing this year’s sales with last year’s).
+  -- CALCULATE: To create measures for specific conditions (e.g., sales in a specific region).
 
--- AVERAGE: For finding average order value (Average Order Value = AVERAGE(Sales[Amount])).
+  -- DATEADD: Used for time intelligence (e.g., comparing this year’s sales with last year’s).
 
-Use:
+  -- AVERAGE: For finding average order value (Average Order Value = AVERAGE(Sales[Amount])).
 
--- Measures were used in charts like bar charts and line charts to dynamically calculate total and average sales.
+  -- Measures were used in charts like bar charts and line charts to dynamically calculate total and average sales.
 
--- DAX measures ensured consistency in metrics across visualizations.
+  -- DAX measures ensured consistency in metrics across visualizations.
 - Interactivity and User Experience
 
--- Added slicers for region, category, and time to allow users to explore data interactively.
+  -- Added slicers for region, category, and time to allow users to explore data interactively.
 
--- Enabled drill-through options to analyze specific details like sales performance by individual products.
+  -- Enabled drill-through options to analyze specific details like sales performance by individual products.
 - Performance Optimization
   
--- Optimized data models by removing unnecessary columns and summarizing data.
+  -- Optimized data models by removing unnecessary columns and summarizing data.
 
--- Minimized the number of visualizations on a single page to improve loading times.
+  -- Minimized the number of visualizations on a single page to improve loading times.
 - Testing and Validation
   
--- Cross-referenced results with raw data to validate accuracy.
+  -- Cross-referenced results with raw data to validate accuracy.
 
--- Ensured interactivity features worked as intended.
+  -- Ensured interactivity features worked as intended.
 - Deployment
 
--- Published the dashboard to Power BI Service for accessibility.
+  -- Published the dashboard to Power BI Service for accessibility.
 
--- Shared links with stakeholders and configured appropriate permissions.
+  -- Shared links with stakeholders and configured appropriate permissions.
 ## Conclusion
 This Sales Dashboard project showcases the ability to clean and transform data, create a data model, and design an interactive dashboard in Power BI. By leveraging DAX measures and advanced visualizations, it provides stakeholders with clear insights into sales performance. The dynamic nature of the dashboard ensures that it can be customized for different business scenarios, making it a valuable tool for decision-making.
 
